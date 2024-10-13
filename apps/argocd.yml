@@ -9,7 +9,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   source:
     path: manifest/argocd/nonprd
-    repoURL: 'https://github.com/RoyalAholdDelhaize/ah-datahub-dsf'
+    repoURL: 'https://github.com/vickydevopsorg/argocd'
     targetRevision: main
   project: default
   syncPolicy:
