@@ -8,7 +8,7 @@ spec:
     namespace: argocd
     server: 'https://kubernetes.default.svc'
   source:
-    path: manifests/argocd/nonprd
+    path: manifest/argocd/nonprd
     repoURL: 'https://github.com/RoyalAholdDelhaize/ah-datahub-dsf'
     targetRevision: main
   project: default
