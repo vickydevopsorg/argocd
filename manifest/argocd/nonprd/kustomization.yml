@@ -1,2 +1,10 @@
 resources:
   - ../common
+
+patches:
+ - target:
+      group: ""
+      version: v1
+      kind: Service
+      name: argocd-server
+   path: overlays/svc-patch.yml
